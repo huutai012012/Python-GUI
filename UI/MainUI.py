@@ -172,7 +172,7 @@ class Ui_MainWindow(object):
         self.Project_Name.setText(_translate("MainWindow", "None"))
         self.label_Flie_Name.setText(_translate("MainWindow", "File"))
         self.File_Name.setText(_translate("MainWindow", "None"))
-import BackGround_rc
+from .Image import BackGround_rc
 
 
 if __name__ == "__main__":
